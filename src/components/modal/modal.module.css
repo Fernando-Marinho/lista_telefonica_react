@@ -1,0 +1,42 @@
+.modal {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 2.1rem;
+  top: 0;
+  background-color: #242424;
+  border-radius: 15px;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+
+}
+
+.close {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.close__icon {
+  size: 1.2em;
+  color: #212529;
+  background-color: #f8f9fa;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid #212529;
+  border-radius: 15%;
+}
+
+.close__icon:hover {
+  cursor: pointer;
+  background-color: #ced4da;
+}
